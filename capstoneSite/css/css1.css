@@ -255,7 +255,7 @@ footer p,footer .li,footer ul{
 	margin: 3%;
 	font-weight: bold;
 }
-footer p,footer .li{
+footer .li,footer p{
 	background-color: #fff;
 }
 footer ul,footer h3,footer a{
@@ -303,5 +303,4 @@ footer .li:hover ,p:hover{
 }
 div{
 	background-color: none !important;
-}
 }
