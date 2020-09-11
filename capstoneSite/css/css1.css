@@ -274,7 +274,7 @@ footer{
    background-repeat:   no-repeat;           
     height: auto;
     width: auto;
-    background-blend-mode: luminosity;
+    background-blend-mode: lighten;
 }
 footer .li:hover ,p:hover{
 	border-radius: 3%;
