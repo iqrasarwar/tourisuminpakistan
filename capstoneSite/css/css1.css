@@ -305,5 +305,10 @@ div{
 	background-color: none !important;
 }
 .my-sm-0{
-	background-color: #fff !important;
+	color: #fff !important;
+    background-color: #09f505 !important;
+}
+.btn-lg{
+	color: #fff !important;
+    background-color: #09f505 !important;
 }
