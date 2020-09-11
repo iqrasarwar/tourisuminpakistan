@@ -250,26 +250,29 @@ body{
 }
 footer p,footer .li,footer ul{
 	font-family: cursive;
-	background-color: rgba(255, 255, 255,1);
-	color:rgba(7, 180, 2,1);
+	background-color: none;
+	color: #000000;
 	margin: 3%;
 	font-weight: bold;
 }
+footer .li{
+	background-color: #fff;
+}
 footer ul,footer h3,footer a{
-	background-color: rgba(255, 255, 255,0);
-	color:rgba(255, 255, 255,1);
+	background-color: none;
+	color: #000000;
 	margin: 3%;
 	font-weight: bold;
 }
 footer a{
-	background-color: rgba(255, 255, 255,0);
-	color:rgba(255, 255, 255,1);
+	color: #000000;
 	text-align: center;
 	text-decoration: underline;
+	background-color: none !important;
 }
 footer{
 	margin-top: 3%;
-	background: #00e600  url("../images/collection.jpg");
+	background: #008000  url("../images/collection.jpg");
 	background-size: 100% 100%;
    background-repeat:   no-repeat;           
     height: auto;
@@ -279,8 +282,8 @@ footer{
 footer .li:hover ,p:hover{
 	border-radius: 3%;
 	line-height: 1.6;
-	color:#042502;
 	font-variant-caps: all-petite-caps;
+	background-color: rgba(255, 255, 255,1);
 }
 .icon a{
 	color: #007bff !important;
@@ -297,4 +300,8 @@ footer .li:hover ,p:hover{
 	  marginwidth:0;
 	  width:100%;
 	  height: 900px;
+}
+div{
+	background-color: none !important;
+}
 }
