@@ -255,7 +255,7 @@ footer p,footer .li,footer ul{
 	margin: 3%;
 	font-weight: bold;
 }
-footer .li{
+footer p,footer .li{
 	background-color: #fff;
 }
 footer ul,footer h3,footer a{
@@ -290,7 +290,7 @@ footer .li:hover ,p:hover{
 	opacity: 1 !important;
 }
  li .icon1{
-	color: #007bff !important;
+	color: #000000 !important;
 	opacity: 1 !important;
 	background: #fff ;
 }
